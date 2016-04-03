@@ -1,0 +1,33 @@
+/**
+ * 	Test output for Scrabble Word
+ *  	
+ *	@author: Pranav Kumar
+ */
+
+ Test Run #1:
+
+Welcome to Scrabble Word! This program finds the most valuable word based on a scrabble hand. The rules the program works off are the point values for letters provided by http://scrabble.hasbro.com/en-us/faq and the double score multiplier for consecutive double letters.
+
+Please enter a list of letters, from 3 to 12 letters long, without spaces -> ioramzariwerif
+
+        farm       mario         war     warrior
+
+Highest scoring word: warrior
+
+
+Test Run #2 (Illegal hand test):
+
+Welcome to Scrabble Word! This program finds the most valuable word based on a scrabble hand. The rules the program works off are the point values for letters provided by http://scrabble.hasbro.com/en-us/faq and the double score multiplier for consecutive double letters.
+
+Please enter a list of letters, from 3 to 12 letters long, without spaces -> ifj23rnw ow
+Not a valid input
+
+Test Run #3:
+
+Welcome to Scrabble Word! This program finds the most valuable word based on a scrabble hand. The rules the program works off are the point values for letters provided by http://scrabble.hasbro.com/en-us/faq and the double score multiplier for consecutive double letters.
+
+Please enter a list of letters, from 3 to 12 letters long, without spaces -> mstylnaricnio
+
+      action       mario        myst         sli
+
+Highest scoring word: myst
