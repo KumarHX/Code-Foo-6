@@ -6,7 +6,7 @@
 
 Take a short video (no more than 5 minutes) introducing yourself, showing your passion for IGN, and telling us why we should pick you to participate in IGN's Code-Foo program. Upload it to YouTube and send us the link.
 
-Video:
+Link:
 
 ##Part 2:
 
