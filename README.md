@@ -1,6 +1,6 @@
-# Code-Foo-6
+# IGN Code-Foo 6
 
-Pranav Kumar 
+***Pranav Kumar***
 
 ##Part 1:
 
