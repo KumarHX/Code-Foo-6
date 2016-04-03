@@ -18,7 +18,7 @@ The Avengers just made a surprise visit to San Francisco. How many legos would i
 
 Write a program that determines the best Scrabble™ word from a list of letters. You can use this list of words as your data source or pick a public API like this one: dictionaryapi. Scrabble™ letter values can be found here.
 
-######Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/ScrabbleWord.java) This program takes a user input (makes sure it is a valid scrabble hand) and finds all the words that can be created based on the wordbase provided by IGN. All the words that can be created based on the hand and the most valuable word (based on letter values and double word score for consecutive letters) are printed to the console.
+######Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/ScrabbleWord.java) This program takes a user input (makes sure it is a valid scrabble hand) and finds all the words that can be created based on the wordbase provided by IGN. All the words that can be created based on the hand and the most valuable word (based on letter values and double word score for consecutive letters) are printed to the console.[Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/TestRun.txt)
 
 
 ##Part 4 (Backend):
