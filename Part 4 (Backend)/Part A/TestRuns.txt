@@ -1,0 +1,28 @@
+/**
+ * 	Test output for Azerty
+ *  	
+ *	@author: Pranav Kumar
+ */
+
+
+Test Run #1:
+
+Please enter a statement from your AZERTY keyboard that will be converted into its representive QWERTY keys:
+aawerfaWFTAWFAQ
+Input: aawerfaWFTAWFAQ
+qqzerfqZFTQZFQA
+
+Test Run #2:
+
+Please enter a statement from your AZERTY keyboard that will be converted into its representive QWERTY keys:
+awdawADQWDQWEFeiwbg
+Input: awdawADQWDQWEFeiwbg
+qzdqzQDAZDAZEFeizbg
+
+Test Run #3:
+
+Please enter a statement from your AZERTY keyboard that will be converted into its representive QWERTY keys:
+aweonavperqpwieuhfadPAWUFhawpef
+Input: aweonavperqpwieuhfadPAWUFhawpef
+qzeonqvperapzieuhfqdPQZUFhqzpef
+
