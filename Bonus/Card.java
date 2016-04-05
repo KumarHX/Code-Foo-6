@@ -66,6 +66,7 @@ public class Card
 	 * @return this <code>Card's</code> point value.
 	 */
 	public int pointValue() {
+		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 		return pointValue;
 	}
 
