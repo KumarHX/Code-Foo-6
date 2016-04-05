@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * The Deck class represents a shuffled deck of cards.
  * It provides several operations including
- *      initialize, shuffle, deal, and check if empty.
+ * initialize, shuffle, deal, and check if empty.
  */
 public class Deck {
 
@@ -70,16 +70,13 @@ public class Deck {
 	 * and reset the size to represent the entire deck.
 	 */
 	public void shuffle() {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
-		int copy = 0;
-		int random = 0;
-		for (int index = cards.size() - 1; index > 0; index--) {
-			random = (int)(Math.random() * cards.size());	
-			copy = cards.get(index).pointValue();
-			cards.set(index, cards.get(random));
-			cards.set(random, cards.get(copy));
-		}
-	}
+        for (int index = cards.size() - 1; index > 0; index--) {
+            int random = (int)(Math.random() * cards.size());
+            Card copy = cards.get(random);
+            cards.set(random, cards.get(index));
+            cards.set(index, copy);
+        }
+    }
 
 	/**
 	 * Deals a card from this deck.
