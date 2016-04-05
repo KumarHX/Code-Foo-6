@@ -30,7 +30,7 @@ Aliens have taken your keyboard, and replaced it with an off brand AZERTY keyboa
 
 #####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20A/Azerty.java) This program uses a hashmap to map QWERTY values to the representive AZERTY values. The AZERTY keyboard letters are the keys in the hashmap and the QWERTY keyboard letters are the values for the representive keys. [Test Runs]( https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20A/TestRuns.txt)
 
-#####To Run: cd to Part\ 3 and run the command java ScrabbleWord in the terminal
+#####To Run: cd to Part\ 3 and run the command 'java ScrabbleWord' in the terminal
 
 ####b:
 
