@@ -36,6 +36,8 @@ Aliens have taken your keyboard, and replaced it with an off brand AZERTY keyboa
 
 Write a library from scratch that can parse date strings and convert them to a valid ISO 8601 date/time format. Every value in this list should be supported.
 
+#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20B/ISOlibrary.py) This library converts different date values into the ISO date format. It breaks the inputted date up into chunks, uses regex to find the pattern of the chunk and uses helper functions to create the ISO format. If there are any missing values, it puts the current year, month and/or day and 0 for time. 
+
 ##Bonus:
 
 Programmatically create a card game that uses an AI opponent. The game can be an original creation or it can be modeled after an existing ruleset. Some examples include Black Jack, Poker, Caravan, Gwent, Apples to Apples and Cards Against Humanity.
