@@ -36,7 +36,8 @@ public class Azerty
         String input = run.userInput();
         char[] chars = input.toCharArray();
         String convertedString = run.convert(chars);
-        System.out.println("New Values: " + convertedString);
+        String sticky = run.stickyKey(convertedString);
+        System.out.println("New Values: " + sticky);
     }
 
     /**
@@ -75,6 +76,30 @@ public class Azerty
             }
         }
         return newValue;
+    }
+
+    /**
+     *  This method takes a string, finds the first 'H' value, makes the string behind 
+     *  that value the sticky value and replaces all H's with the sticky value.
+     *
+     *  @param: converted string
+     *  @return: stickied string
+     */
+
+    public String stickyKey(String value)
+    {
+        boolean first = true;
+        for(int i = 0; i < value.length(); i++)
+        {
+            if(first && value.charAt(i) == 'H')
+            {
+                String stickiedValue = value.substring(0,i);
+                System.out.println("Stickied value = " + stickiedValue);
+                first = false;
+                value = value.replaceAll("H", stickiedValue);
+            }
+        }
+        return value;
     }
 }
 
