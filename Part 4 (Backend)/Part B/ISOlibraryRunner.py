@@ -1,3 +1,5 @@
+import ISOLibrary
+
 """
 This program tests the ISOlibrary.
 
@@ -5,7 +7,6 @@ Author: Pranav Kumar
 Date: April 2, 2016
 
 """
-import ISOlibrary
 
 print('Welcome to the ISOLibrary tester! This program allows you to input date values and converts them to ISO format. \n\n')
 print('These are the types of date formats that are supported by this library:')
@@ -30,6 +31,6 @@ print('r. 20/03/2016')
 print('s. 20 March 2016')
 print('t. 2016-20-03T16:05:07-08:00\n\n')
 
-
 date_inputted = raw_input("Please enter a date to be converted to ISO format: ")
-ISOlibrary.covertToISO(date_inputted)
+ISODate = ISOLibrary.convertToISO(date_inputted)
+print(ISODate)

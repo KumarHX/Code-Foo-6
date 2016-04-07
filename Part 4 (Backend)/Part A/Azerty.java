@@ -36,7 +36,7 @@ public class Azerty
         String input = run.userInput();
         char[] chars = input.toCharArray();
         String convertedString = run.convert(chars);
-        System.out.println(convertedString);
+        System.out.println("New Values: " + convertedString);
     }
 
     /**
