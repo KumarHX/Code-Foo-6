@@ -1,4 +1,4 @@
-import ISOLibrary
+import ISOlibrary
 
 """
 This program tests the ISOlibrary.
@@ -32,5 +32,5 @@ print('s. 20 March 2016')
 print('t. 2016-20-03T16:05:07-08:00\n\n')
 
 date_inputted = raw_input("Please enter a date to be converted to ISO format: ")
-ISODate = ISOLibrary.convertToISO(date_inputted)
+ISODate = ISOlibrary.convertToISO(date_inputted)
 print(ISODate)
