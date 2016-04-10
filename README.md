@@ -47,7 +47,7 @@ Programmatically create a card game that uses an AI opponent. The game can be an
 
 ![Webview screenshot](http://s21.postimg.org/sh3hq7xc7/Screen_Shot_2016_04_10_at_2_37_38_PM.png)
 
-#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/tree/master/Bonus) My solution to this bonus question is the 'thirteens' card game with an AI opponent. The objective is to find (from 9 cards at a time from a 52 card deck) 2 cards that add up to 13 or one king card. The objective is to go as fast as you can because the AI opponent gets points for finding sets too (have to be faster than the AI (artificailly slowed down the algorithm for the AI to make the game possible)). If at the end (no cards that are king or pair that adds up to 13) you win if you have more than or equal to as many points as the AI. Build with Java and used the java.awt library for graphics.    [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/TestRun.txt)
+#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/tree/master/Bonus) My solution to this bonus question is the 'thirteens' card game with an AI opponent. The objective is to find (from 9 cards at a time from a 52 card deck) 2 cards that add up to 13 or one king card. The objective is to go as fast as you can because the AI opponent gets points for finding sets too (have to be faster than the AI (artificailly slowed down the algorithm for the AI to make the game possible)). If at the end (no cards that are king or pair that adds up to 13) you win if you have more than or equal to as many points as the AI. Build with Java and used the java.awt library for graphics.    
 
 #####To Run: cd to Bonus and run the command 'java ThirteensGUIRunner' in the terminal
 
