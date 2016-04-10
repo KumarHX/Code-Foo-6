@@ -47,6 +47,9 @@ Programmatically create a card game that uses an AI opponent. The game can be an
 
 ![Webview screenshot](http://s21.postimg.org/sh3hq7xc7/Screen_Shot_2016_04_10_at_2_37_38_PM.png)
 
+#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/ScrabbleWord.java) This program takes a user input (makes sure it is a valid scrabble hand) and finds all the words that can be created based on the wordbase provided by IGN. All the words that can be created based on the hand and the most valuable word (based on letter values and double word score for consecutive letters) are printed to the console. [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/TestRun.txt)
+
+#####To Run: cd to Bonus and run the command 'java ThirteensGUIRunner' in the terminal
 
 
 
