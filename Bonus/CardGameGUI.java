@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * This class provides a GUI for solitaire games related to Elevens.
+ * This class provides a GUI for the Thirteens card game
  */
 public class CardGameGUI extends JFrame implements ActionListener {
 
@@ -119,7 +119,7 @@ public class CardGameGUI extends JFrame implements ActionListener {
 	public void displayGame() {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				setVisible(true);
+				setVisible(true);	
 			}
 		});
 	}
@@ -141,11 +141,11 @@ public class CardGameGUI extends JFrame implements ActionListener {
 					"Card image not found: \"" + cardImageFileName + "\"");
 			}
 		}
-		statusMsg.setText(board.deckSize()
-			+ " undealt cards remain.");
+		statusMsg.setText("User Score: " + board.getUserScore()
+			);
 		statusMsg.setVisible(true);
-		totalsMsg.setText("You've won " + totalWins
-			 + " out of " + totalGames + " games.");
+		totalsMsg.setText("CPU score: " + board.getCPUScore()
+			);
 		totalsMsg.setVisible(true);
 		pack();
 		panel.repaint();
@@ -293,25 +293,45 @@ public class CardGameGUI extends JFrame implements ActionListener {
 				signalError();
 				return;
 			}
+			else
+			{
+				board.setUserScore(board.getUserScore() + 1);
+			}
 			for (int k = 0; k < board.size(); k++) {
 				selections[k] = false;
 			}
 			// Do the replace.
 			board.replaceSelectedCards(selection);
 			if (board.isEmpty()) {
-				signalWin();
+				if(board.getCPUScore() <= board.getUserScore())
+				{
+					signalWin();
+				}
+				else
+				{
+					signalLoss();
+				}
 			} else if (!board.anotherPlayIsPossible()) {
-				signalLoss();
+				if(board.getCPUScore() <= board.getUserScore())
+				{
+					signalWin();
+				}
+				else
+				{
+					signalLoss();
+				}
 			}
 			repaint();
 		} else if (e.getSource().equals(restartButton)) {
+			board.setUserScore(0);
+			board.setCPUScore(0);
+
 			board.newGame();
 			getRootPane().setDefaultButton(replaceButton);
 			winMsg.setVisible(false);
 			lossMsg.setVisible(false);
 			if (!board.anotherPlayIsPossible()) {
 				signalLoss();
-				lossMsg.setVisible(true);
 			}
 			for (int i = 0; i < selections.length; i++) {
 				selections[i] = false;
@@ -391,5 +411,6 @@ public class CardGameGUI extends JFrame implements ActionListener {
 		 */
 		public void mousePressed(MouseEvent e) {
 		}
+
 	}
 }

@@ -22,6 +22,10 @@ public abstract class Board {
 	 * Flag used to control debugging print statements.
 	 */
 	private static final boolean I_AM_DEBUGGING = false;
+	private int size;
+	private String[] ranks;
+	private String[] suits;
+	private int[] pointValues;
 
 	/**
 	 * Creates a new <code>Board</code> instance.
@@ -32,6 +36,10 @@ public abstract class Board {
 	 *                    the deck
 	 */
 	public Board(int size, String[] ranks, String[] suits, int[] pointValues) {
+		this.size = size;
+		this.ranks = ranks;
+		this.suits = suits;
+		this.pointValues = pointValues;
 		cards = new Card[size];
 		deck = new Deck(ranks, suits, pointValues);
 		if (I_AM_DEBUGGING) {
@@ -41,11 +49,23 @@ public abstract class Board {
 		dealMyCards();
 	}
 
+	public ArrayList<Integer> boardCardValues()
+	{
+		ArrayList<Integer> values = new ArrayList<Integer>();
+		for(int i = 0; i < cards.length; i++)
+		{
+			values.add(cards[i].pointValue());
+		}
+		return values;
+	}
+
 	/**
 	 * Start a new game by shuffling the deck and
 	 * dealing some cards to this board.
 	 */
 	public void newGame() {
+		cards = new Card[size];
+		deck = new Deck(ranks, suits, pointValues);
 		deck.shuffle();
 		dealMyCards();
 	}
@@ -164,6 +184,12 @@ public abstract class Board {
 	 *         false otherwise.
 	 */
 	public abstract boolean isLegal(List<Integer> selectedCards);
+
+	public abstract int getUserScore();
+	public abstract void setUserScore(int a);
+	public abstract int getCPUScore();
+	public abstract void setCPUScore(int a);
+	public abstract void printPairs(List<Integer> allCards, int sum);
 
 	/**
 	 * Method to be completed by the concrete class that determines
