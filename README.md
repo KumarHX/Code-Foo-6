@@ -45,7 +45,7 @@ Write a library from scratch that can parse date strings and convert them to a v
 Programmatically create a card game that uses an AI opponent. The game can be an original creation or it can be modeled after an existing ruleset. Some examples include Black Jack, Poker, Caravan, Gwent, Apples to Apples and Cards Against Humanity.
 
 
-
+![game screenshot](http://postimg.org/image/4g4ox1i15/06249bd7/)
 
 
 
