@@ -20,7 +20,7 @@ Write a program that determines the best Scrabble™ word from a list of letters
 
 #####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/ScrabbleWord.java) This program takes a user input (makes sure it is a valid scrabble hand) and finds all the words that can be created based on the wordbase provided by IGN. All the words that can be created based on the hand and the most valuable word (based on letter values and double word score for consecutive letters) are printed to the console. [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%203/TestRun.txt)
 
-#####To Run: cd to Part\ 3 and run the command 'java ScrabbleWord' in the terminal
+#####To Run: cd to Part3 and run the command 'java ScrabbleWord' in the terminal
 
 ##Part 4 (Backend):
 
@@ -30,7 +30,7 @@ Aliens have taken your keyboard, and replaced it with an off brand AZERTY keyboa
 
 #####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20A/Azerty.java) This program uses a hashmap to map QWERTY values to the representive AZERTY values. The AZERTY keyboard letters are the keys in the hashmap and the QWERTY keyboard letters are the values for the representive keys. For the sticky 'H' key, this program finds the substring till the first 'H' and makes that the stickied value. It then replaces all 'H' with the stickied value.  [Test Runs]( https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20A/TestRuns.txt)
 
-#####To Run: cd to Part A in the Part 4 (backend) directory and run the command 'java Azerty' in the terminal
+#####To Run: cd to Part A in the Part4 (backend) directory and run the command 'java Azerty' in the terminal
 
 ####b:
 
