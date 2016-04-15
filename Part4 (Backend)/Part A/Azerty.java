@@ -51,6 +51,7 @@ public class Azerty
         System.out.println("Please enter a statement from your AZERTY keyboard that will be converted into its representive QWERTY keys:");
         Scanner link = new Scanner(System.in);
         String word = link.nextLine();
+        link.close();
         return word;
     }
 
@@ -63,19 +64,20 @@ public class Azerty
 
     public String convert(char[] letters)
     {
-        String newValue = "";
+        StringBuffer newValue = new StringBuffer();
         for(int i = 0; i < letters.length; i++)
         {
             if(hm.containsKey(letters[i]))
             {
-                newValue += hm.get(letters[i]);
+                newValue.append(hm.get(letters[i]));
             }
             else
             {
-                newValue += letters[i];
+                newValue.append(letters[i]);
             }
         }
-        return newValue;
+        String value = newValue.toString();
+        return value;
     }
 
     /**
