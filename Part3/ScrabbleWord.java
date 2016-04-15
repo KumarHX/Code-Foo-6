@@ -10,8 +10,6 @@ import java.util.Scanner;
  
 public class ScrabbleWord
 {
-    private static String [] prevWord = {""}; 
-
     /**
      *  This method runs the program and prints to the console all the words found and the most valuable word found.
      */
@@ -56,6 +54,7 @@ public class ScrabbleWord
                 checkWord = true;
             }
         }
+        link.close();
         if(!checkWord)
         {
             return word;
@@ -88,6 +87,7 @@ public class ScrabbleWord
         }
         catch(Exception e)
         {
+            System.out.println("Error found: " + e);
             return null;
         }
     }
