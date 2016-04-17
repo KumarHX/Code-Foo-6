@@ -17,6 +17,9 @@
 * Tower base dimension (each leg) is 33 ft x 54 ft (10 m x 16 m)
 
 ####Main Cables:
+
+![Towers](http://www.goldengatebridge.org/photos/images/painters_skybox2.jpg)
+
 * The Golden Gate Bridge has two main cables which pass over the tops of the two 746-ft-tall towers.
 * Diameter of one main cable including the exterior wrapping is 36 3/8 in (0.92 m).
 * Length of one main cable is 7,650 ft (2,332 m).
