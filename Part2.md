@@ -8,9 +8,10 @@
 * Width of Bridge is 90 ft (27 m).
 * Width of sidewalk is 10 ft (3 m).
 
+####Main Towers:
+
 ![Towers](http://www.ritchiewiki.com/wiki/files/thumb/Golden_Gate_Bridge_-_looking_up.jpg/300px-Golden_Gate_Bridge_-_looking_up.jpg)
 
-####Main Towers:
 * The Golden Gate Bridge has two main towers that support the two main cables.
 * The height of a tower above roadway is 500 ft (152 m).
 * Tower base dimension (each leg) is 33 ft x 54 ft (10 m x 16 m)
