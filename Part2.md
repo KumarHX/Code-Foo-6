@@ -32,5 +32,9 @@
 * The height of a standard lego brick is 9.6 mm.
 * The width of a standard lego brick is 15.8 mm.
 
+####Calculations:
+
+####Bridge to bricks:
+
 
 
