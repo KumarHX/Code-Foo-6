@@ -46,4 +46,17 @@
 ######84,106,218 bricks for the bridge.
 
 ####Main towers to bricks:
+* The height of a tower above roadway is 500 ft or 152,400 mm. This is roughly 4793 bricks. 
+* Tower base dimension (each leg) is 33 ft x 54 ft or 10,059 mm x 17460 mm. This gives 175,630,140 mm for the base structurem or 5,522,960 bricks. The base structure times the height leaves us with 26,471,547,280 bricks multiplied by two for two towers resulting in:
+
+######52,943,094,560 bricks for the towers.
+
+####Cables to bricks:
+* Diameter of one main cable including the exterior wrapping is 0.92 m or 920 mm. This would take about 29 bricks.
+* Length of one main cable is 7,650 ft or 2,331,720 mm. This would take about 73,325 bricks multiplied by the diameter results in:
+
+######2,126,425 bricks for the cables.
+
+##Total : Bridge (84,106,218 bricks) + towers (52,943,094,560 bricks) + cables (2,126,425 bricks) = 53,029,327,203 standard lego bricks.
+
 
