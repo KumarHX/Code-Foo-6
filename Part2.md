@@ -57,6 +57,8 @@
 
 ######2,126,425 bricks for the cables.
 
-##Total : Bridge (84,106,218 bricks) + towers (52,943,094,560 bricks) + cables (2,126,425 bricks) = 53,029,327,203 standard lego bricks.
+#####Total : Bridge (84,106,218 bricks) + towers (52,943,094,560 bricks) + cables (2,126,425 bricks) 
+
+##Result: 53,029,327,203 standard lego bricks.
 
 
