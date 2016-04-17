@@ -36,9 +36,13 @@
 
 ####Bridge to bricks:
 
-* Total length of Bridge is 9,150 ft. This length covered by the standard lego brick would take 2,788,920 mm which is roughly 87702 bricks.
-* Length of suspension span including main span and side spans is 1.2 miles (6,450 ft or 1,966 m).
-* Length of main span portion of suspended structure (distance between towers) is 4,200 ft (1,280 m).
-* Width of Bridge is 90 ft (27 m).
-* Width of sidewalk is 10 ft (3 m).
+* Total length of Bridge is 9,150 ft. This length covered by the standard lego brick would take 2,788,920 mm which is roughly 87,702 bricks.
+* The length of the suspension span including main span and side spans is 6,450 ft or 1,965,960 mm which would take 61,822 bricks.
+* Length of main span portion of suspended structure (distance between towers) is 4,200 ft or 1,280,160 mm which is rougly 40,256 bricks.
+* Width of Bridge is 90 ft or 27,432 mm which is rougly 863 bricks. 
+* Width of sidewalk is 10 ft or 3048 mm which is rougly 96 bricks.
+* Total length of bridge times width of bridge = 75,686,826 bricks adding the sidewalk gives another 8,419,392 bricks for a total of:
+###### 84,106,218 bricks for the bridge.
+
+####Main towers to bricks:
 
