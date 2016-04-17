@@ -42,7 +42,8 @@
 * Width of Bridge is 90 ft or 27,432 mm which is rougly 863 bricks. 
 * Width of sidewalk is 10 ft or 3048 mm which is rougly 96 bricks.
 * Total length of bridge times width of bridge = 75,686,826 bricks adding the sidewalk gives another 8,419,392 bricks for a total of:
-###### 84,106,218 bricks for the bridge.
+
+######84,106,218 bricks for the bridge.
 
 ####Main towers to bricks:
 
