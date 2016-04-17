@@ -28,7 +28,7 @@ Write a program that determines the best Scrabble™ word from a list of letters
 
 Aliens have taken your keyboard, and replaced it with an off brand AZERTY keyboard with a sticky 'H' key. Write a program to convert the AZERTY keys you press to QWERTY.
 
-#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20A/Azerty.java) This program uses a hashmap to map QWERTY values to the representive AZERTY values. The AZERTY keyboard letters are the keys in the hashmap and the QWERTY keyboard letters are the values for the representive keys. For the sticky 'H' key, this program finds the substring till the first 'H' and makes that the stickied value. It then replaces all 'H' with the stickied value.  [Test Runs]( https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20A/TestRuns.txt)
+#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20A/Azerty.java) This program uses a hashmap to map QWERTY values to the representive AZERTY values. The AZERTY keyboard letters are the keys in the hashmap and the QWERTY keyboard letters are the values for the representive keys. For the sticky 'H' key, this program finds the substring till the first 'H' and makes that the stickied value. It then replaces all 'H' with the stickied value.  [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20A/TestRuns.txt)
 
 #####To Run: cd to Part A in the Part4 (backend) directory and run the command 'java Azerty' in the terminal
 
@@ -36,7 +36,7 @@ Aliens have taken your keyboard, and replaced it with an off brand AZERTY keyboa
 
 Write a library from scratch that can parse date strings and convert them to a valid ISO 8601 date/time format. Every value in this list should be supported.
 
-#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20B/ISOlibrary.py) This library converts different date values into the ISO date format. It breaks the inputted date up into chunks, uses regex to find the pattern of the chunk and uses helper functions to create the ISO format. If there are any missing values, it puts the current year, month and/or day and 0 for time values. [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part%204%20(Backend)/Part%20B/TestRun.txt) 
+#####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20B/ISOlibrary.py) This library converts different date values into the ISO date format. It breaks the inputted date up into chunks, uses regex to find the pattern of the chunk and uses helper functions to create the ISO format. If there are any missing values, it puts the current year, month and/or day and 0 for time values. [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20B/TestRun.txt) 
 
 #####To Run: cd to Part B in the Part 4 (backend) directory and run the command 'python ISOlibraryRunner.py' in the terminal (cannot have python 3.X because this program is written for python 2.7 and the print commands/user input syntax changed for the newer versions of python)
 
