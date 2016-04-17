@@ -25,8 +25,12 @@
 * Length of one main cable is 7,650 ft (2,332 m).
 
 ####Lego Brick Researched Data:
-#####(Going to use only the standard brick for construction)
+#####(Going to use only the standard 2 by 4 brick for construction)
 ![bricks](http://freedom-muse.com/wp-content/uploads/2014/12/Lego-Brick.jpg)
 
-* The Golden Gate Bridge has two main cables which pass over the tops of the two 746-ft-tall towers.
+* The length of a standard lego brick is 31.8 mm.
+* The height of a standard lego brick is 9.6 mm.
+* The width of a standard lego brick is 15.8 mm.
+
+
 
