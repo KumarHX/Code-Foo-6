@@ -38,7 +38,7 @@ Write a library from scratch that can parse date strings and convert them to a v
 
 #####Solution: [Source](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20B/ISOlibrary.py) This library converts different date values into the ISO date format. It breaks the inputted date up into chunks, uses regex to find the pattern of the chunk and uses helper functions to create the ISO format. If there are any missing values, it puts the current year, month and/or day and 0 for time values. [Test Runs](https://github.com/KumarHX/Code-Foo-6/blob/master/Part4%20(Backend)/Part%20B/TestRun.txt) 
 
-#####To Run: cd to Part B in the Part 4 (backend) directory and run the command 'python ISOlibraryRunner.py' in the terminal (cannot have python 3.X because this program is written for python 2.7 and the print commands/user input syntax changed for the newer versions of python)
+#####To Run: cd to Part B in the Part4 (backend) directory and run the command 'python ISOlibraryRunner.py' in the terminal (cannot have python 3.X because this program is written for python 2.7 and the print commands/user input syntax changed for the newer versions of python)
 
 ##Bonus:
 
